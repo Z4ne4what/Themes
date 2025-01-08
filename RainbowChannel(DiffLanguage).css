@@ -64,3 +64,10 @@
   --channel-icon: #cba6f7b3;
   --text-brand: #cba6f7;
 }
+
+/* Channel Group Names */
+.wrapperCommon_a08117,
+.wrapper_a08117 .name_a08117,
+.wrapper_a08117:hover .name_a08117{
+  color: white;
+}
