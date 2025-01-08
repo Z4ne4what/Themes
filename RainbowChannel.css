@@ -83,8 +83,10 @@
 /* Channel Group Names */
 .wrapperCommon_a08117,
 .wrapper_a08117 .name_a08117,
-.wrapper_a08117:hover .name_a08117,
 .privateChannelsHeaderContainer_c47fa9,
-.clickable_fc4f04 .icon_fc4f04{
-  color: white;
+.clickable_fc4f04 .icon_fc4f04,
+.privateChannelsHeaderContainer_c47fa9:hover,
+.clickable_fc4f04 .icon_fc4f04:hover,
+.wrapper_a08117 .name_a08117:hover{
+  color: red;
 }
