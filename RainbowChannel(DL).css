@@ -65,6 +65,21 @@
   --channel-icon: #cba6f7b3;
   --text-brand: #cba6f7;
 }
+.content_eed6a8:has(path[d^="M14.5 8a3 3 0 1 0-2.7-4.3c-.2.4.06.86.44"]){
+  --channels-default: rgba(243, 139, 168, 0.7);
+  --interactive-hover: #f38ba8;
+  --interactive-active: #f38ba8;
+  --interactive-normal: #f38ba8;
+  --interactive-muted: #ca748cb3;
+  --channel-icon: #f38ba8b3;
+  --text-brand: #f38ba8;
+  --text-muted: #de7d99b3;
+}
+.friendsButtonContainer_f0963d{
+  --channels-default: rgba(243, 139, 168, 0.7);
+  --interactive-hover: #f38ba8;
+  --interactive-active: #f38ba8;
+}
 
 /* Channel Group Names */
 .wrapperCommon_a08117,
