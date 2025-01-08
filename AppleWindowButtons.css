@@ -1,0 +1,33 @@
+/* Apple window buttons */
+
+.platform-win .typeWindows_a934d8 .winButton_a934d8 svg {
+    display: none;
+}
+.platform-win .typeWindows_a934d8 .winButton_a934d8 {
+    width: 14px;
+    height: 14px;
+    margin-top: 10px !important;
+    margin-left: 8px !important;
+    border-radius: 15px;
+    background-color: #ffaa00;
+    background-size: 0;
+    -webkit-app-region: no-drag;
+}
+.platform-win .typeWindows_a934d8 .winButtonClose_a934d8,
+.platform-win .typeWindows_a934d8 .winButtonMinMax_a934d8:nth-child(2n),
+.platform-win .typeWindows_a934d8 .winButtonMinMax_a934d8:nth-child(3n){
+  margin: 10px;
+  margin-top: 10px;
+}
+.platform-win .typeWindows_a934d8 .winButtonClose_a934d8 {
+    background-color: #ff0000;
+    margin-top: 13px;
+    margin-left: 2px;
+}
+.platform-win .typeWindows_a934d8 .winButtonMinMax_a934d8:nth-child(3n) {
+    background-color: #ffaa00 !important;
+}
+.platform-win .typeWindows_a934d8 .winButtonMinMax_a934d8:nth-child(2n) {
+    background-color: #e5ff00;
+    margin-top: 13px
+}
