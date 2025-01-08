@@ -1,3 +1,5 @@
+/* Please know that this will change the orders of the colors slightly!! But otherwise not too noticable. */
+
 /* Server Boost Gradient */
 .progressBar_c75f85 {
     --guild-boosting-blue: #f38ba8, #fab387, #f9e2af;
@@ -5,7 +7,6 @@
 }
 
 /* Different Languages */
-
 .content_eed6a8 > li:nth-child(1n){
   --channels-default: rgba(243, 139, 168, 0.7);
   --interactive-hover: #f38ba8;
