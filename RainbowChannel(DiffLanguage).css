@@ -1,3 +1,9 @@
+/* Server Boost Gradient */
+.progressBar_c75f85 {
+    --guild-boosting-blue: #f38ba8, #fab387, #f9e2af;
+    --guild-boosting-purple: #a6e3a1, #74c7ec, #cba6f7;
+}
+
 /* Different Languages */
 
 .content_eed6a8 > li:nth-child(1n){
