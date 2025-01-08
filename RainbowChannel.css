@@ -1,0 +1,143 @@
+/* Server Boost Gradient */
+.progressBar_c75f85 {
+    --guild-boosting-blue: #f38ba8, #fab387, #f9e2af;
+    --guild-boosting-purple: #a6e3a1, #74c7ec, #cba6f7;
+}
+
+/* Rainbow Channels */
+.content_eed6a8 > li:nth-child(1n){
+  --channels-default: rgba(243, 139, 168, 0.7);
+  --interactive-hover: #f38ba8;
+  --interactive-active: #f38ba8;
+  --interactive-normal: #f38ba8;
+  --interactive-muted: #ca748cb3;
+  --channel-icon: #f38ba8b3;
+  --text-brand: #f38ba8;
+  --text-muted: #de7d99b3;
+}
+.content_eed6a8 > li:nth-child(2n){
+  --channels-default: rgba(250, 179, 135, 0.7);
+  --interactive-hover: #fab387;
+  --interactive-active: #fab387;
+  --interactive-normal: #fab387;
+  --interactive-muted: #d39773b3;
+  --channel-icon: #fab387b3;
+  --text-brand: #fab387;
+  --text-muted: #e3a37cb3;
+}
+.content_eed6a8 > li:nth-child(3n){
+  --channels-default: rgba(249, 226, 175, 0.7);
+  --interactive-hover: #f9e2af;
+  --interactive-active: #f9e2af;
+  --interactive-muted: #d5c195b3;
+  --interactive-normal: #f9e2af;
+  --channel-icon: #f9e2afb3;
+  --text-brand: #f9e2af;
+  --text-muted: #d8c498b3;
+}
+.content_eed6a8 > li:nth-child(4n){
+  --channels-default: rgba(166, 227, 161, 0.7);
+  --interactive-hover: #a6e3a1;
+  --interactive-active: #a6e3a1;
+  --interactive-normal: #a6e3a1;
+  --interactive-muted: #8abc86b3;
+  --channel-icon: #a6e3a1b3;
+  --text-brand: #a6e3a1;
+  --text-muted: #93ca8eb3;
+}
+.content_eed6a8 > li:nth-child(5n){
+  --channels-default: rgba(137, 180, 250, 0.7);
+  --interactive-hover: #74c7ec;
+  --interactive-active: #74c7ec;
+  --interactive-normal: #74c7ec;
+  --interactive-muted: #74c6ec8d;
+  --channel-icon: #89b4fab3;
+  --text-brand: #74c7ec;
+}
+.content_eed6a8 > li:nth-child(6n){
+  --channels-default: rgba(203, 166, 247, 0.7);
+  --interactive-hover: #cba6f7;
+  --interactive-active: #cba6f7;
+  --interactive-normal: #cba6f7;
+  --interactive-muted: #cba6f7b3;
+  --channel-icon: #cba6f7b3;
+  --text-brand: #cba6f7;
+}
+.content_eed6a8:has(path[d^="M14.5 8a3 3 0 1 0-2.7-4.3c-.2.4.06.86.44"]){
+  --channels-default: rgba(243, 139, 168, 0.7);
+  --interactive-hover: #f38ba8;
+  --interactive-active: #f38ba8;
+  --interactive-normal: #f38ba8;
+  --interactive-muted: #ca748cb3;
+  --channel-icon: #f38ba8b3;
+  --text-brand: #f38ba8;
+  --text-muted: #de7d99b3;
+}
+
+/* Different Languages */
+
+.content_eed6a8 > li:nth-child(1n){
+  --channels-default: rgba(243, 139, 168, 0.7);
+  --interactive-hover: #f38ba8;
+  --interactive-active: #f38ba8;
+  --interactive-normal: #f38ba8;
+  --interactive-muted: #ca748cb3;
+  --channel-icon: #f38ba8b3;
+  --text-brand: #f38ba8;
+  --text-muted: #de7d99b3;
+}
+.content_eed6a8 > li:nth-child(2n){
+  --channels-default: rgba(250, 179, 135, 0.7);
+  --interactive-hover: #fab387;
+  --interactive-active: #fab387;
+  --interactive-normal: #fab387;
+  --interactive-muted: #d39773b3;
+  --channel-icon: #fab387b3;
+  --text-brand: #fab387;
+  --text-muted: #e3a37cb3;
+}
+.content_eed6a8 > li:nth-of-type(3n){
+  --channels-default: rgba(249, 226, 175, 0.7);
+  --interactive-hover: #f9e2af;
+  --interactive-active: #f9e2af;
+  --interactive-muted: #d5c195b3;
+  --interactive-normal: #f9e2af;
+  --channel-icon: #f9e2afb3;
+  --text-brand: #f9e2af;
+  --text-muted: #d8c498b3;
+}
+.content_eed6a8 > li:nth-of-type(4n){
+  --channels-default: rgba(166, 227, 161, 0.7);
+  --interactive-hover: #a6e3a1;
+  --interactive-active: #a6e3a1;
+  --interactive-normal: #a6e3a1;
+  --interactive-muted: #8abc86b3;
+  --channel-icon: #a6e3a1b3;
+  --text-brand: #a6e3a1;
+  --text-muted: #93ca8eb3;
+}
+.content_eed6a8 > li:nth-of-type(5n){
+  --channels-default: rgba(137, 180, 250, 0.7);
+  --interactive-hover: #74c7ec;
+  --interactive-active: #74c7ec;
+  --interactive-normal: #74c7ec;
+  --interactive-muted: #74c6ec8d;
+  --channel-icon: #89b4fab3;
+  --text-brand: #74c7ec;
+}
+.content_eed6a8 > li:nth-of-type(6n){
+  --channels-default: rgba(203, 166, 247, 0.7);
+  --interactive-hover: #cba6f7;
+  --interactive-active: #cba6f7;
+  --interactive-normal: #cba6f7;
+  --interactive-muted: #cba6f7b3;
+  --channel-icon: #cba6f7b3;
+  --text-brand: #cba6f7;
+}
+
+/* Channel Group Names */
+.wrapperCommon_a08117,
+.wrapper_a08117 .name_a08117,
+.wrapper_a08117:hover .name_a08117{
+  color: white;
+}
