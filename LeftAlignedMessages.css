@@ -1,0 +1,169 @@
+/* Left aligned messages */
+/* Made by @sad4whatt on discord */
+/* Reminder, you need the ThemeAttributes plugin for this to work!! */
+
+/* General Styles */
+
+[class*=messageListItem][data-is-self="true"] {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 4px;
+}
+[class*=messageListItem][data-is-self="true"] .blockquoteContainer_f8f345{
+  display: flex;
+  flex-direction: row-reverse;
+}
+[class*=messageListItem][data-is-self="true"] .videoControls_f72aac{
+  direction:ltr; 
+}
+[class*=messageListItem][data-is-self="true"] .message_d5deea:not(.avatar_f9f2ca, .avatar_b211c6) {
+    padding-right: 2% !important;
+    max-width: 60%;
+    padding: 2px;
+    margin-right: 37px;
+    text-align: right;
+}
+[class*=messageListItem][data-is-self="true"] .avatar_f9f2ca,
+[class*=messageListItem][data-is-self="true"] .avatar_b211c6 {
+    position: absolute;
+    left: 98.5% !important;
+}
+[class*=messageListItem][data-is-self="true"] .avatarDecoration_f9f2ca {
+    position: absolute;
+    left: 97.3% !important;
+}
+[class*=messageListItem][data-is-self="true"] .embedAuthor_ad0b71 {
+    direction: rtl;
+}
+
+/* Contents */
+
+[class*=messageListItem][data-is-self="true"] .contents_f9f2ca {
+    background-color: #1d261e !important;
+    border-radius: 8px;
+    display: inline-block;
+    max-width: 100%;
+}
+[class*=messageListItem] .contents_f9f2ca {
+    padding: 12px; 
+    margin: 0px; 
+    max-width: 100%; 
+    display: inline-block;
+    height: auto; 
+    background-color: #1d2620;
+    border-radius: 8px
+}
+.blockquoteDivider_f8f345{
+  background: #107b22;
+}
+
+/* Message */
+
+.cozy_f9f2ca .contents_f9f2ca .header_f9f2ca:not(.timezone-message-item):not(.timestamp_f9f2ca) {
+  display: flex; 
+  flex-direction: column;
+}
+.cozy_f9f2ca .header_f9f2ca {
+  position: inherit;
+}
+
+/* Replied Messages and Mentions */
+
+[class*=messageListItem][data-is-self="true"] .repliedMessageClickableSpine_f9f2ca {
+    transform: scaleX(-1);
+    right: -40px;
+    left: 102%;
+    z-index:-1000;
+}
+.cozy_f9f2ca .messageContent_f9f2ca{
+  color: #61ca6d !important;
+}
+.cozy_f9f2ca .timestamp_f9f2ca{
+  color: #61ca7174
+}
+
+.repliedTextPreview_f9f2ca {
+    align-items: center;
+}
+.mentioned_d5deea .contents_f9f2ca .messageContent_f9f2ca::before {
+    background-color: transparent;
+    content: "";
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    pointer-events: none;
+    width: 3px;
+    margin: 8px 0;
+    border-radius: 1.5px;
+    z-index: 1;
+}
+[class*=messageListItem][data-is-self="true"].mentioned_d5deea .contents_f9f2ca .messageContent_f9f2ca {
+    background-color: var(--background-mentioned);
+}
+[class*=messageListItem][data-is-self="true"].mentioned_d5deea:hover .contents_f9f2ca .messageContent_f9f2ca,
+.mentioned_d5deea.selected_d5deea .contents_f9f2ca .messageContent_f9f2ca {
+    background-color: var(--background-mentioned-hover);
+}
+.replying_d5deea .messageContent_f9f2ca,
+.replying_d5deea:hover .messageContent_f9f2ca,
+.replying_d5deea.selected_d5deea .messageContent_f9f2ca, 
+.replying_d5deea .header_f9f2ca {
+    background-color: rgba(0, 175, 38, 0);
+}
+.replying_d5deea .contents_f9f2ca .messageContent_f9f2ca::before {
+    content: "";
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    pointer-events: none;
+    width: 2px;
+    margin: 1px -3px;
+    border-radius: 1.5px;
+    z-index: 1;
+}
+/* Links */
+.originalLink_d4597d{
+  left: 200px !important;
+}
+/* Image Container */
+[class*=messageListItem][data-is-self="true"] .container_b558d0 {
+  display: flow;
+}
+
+/* Headers */
+[class*=messageListItem][data-is-self="true"] .header_f9f2ca,
+.header_f9f2ca {
+    display: flex;
+    flex-direction: column;
+}
+[class*=messageListItem][data-is-self="true"] .header_f9f2ca span,
+.header_f9f2ca span {
+    margin-left: .01rem;
+    margin-right: unset;
+}
+/* Miscellaneous */
+[class*=messageListItem][data-is-self="true"] .contents_f9f2ca,
+.messageContent_f9f2ca {
+    overflow: visible;
+}
+[class*=messageListItem][data-is-self="true"].contents_f9f2ca pre {
+    max-width: 100%;
+}
+.compact_f9f2ca.wrapper_f9f2ca {
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.mentioned_d5deea.compact_f9f2ca,
+.contents_f9f2ca,
+.messageContent_f9f2ca::before:not(.messageListItem_d5deea[data-is-self="true"]),
+.replying_d5deea.compact_f9f2ca,
+.contents_f9f2ca,
+.messageContent_f9f2ca::before:not(.messageListItem_d5deea[data-is-self="true"]),
+.mentioned_d5deea.compact_f9f2ca .contents_f9f2ca .messageContent_f9f2ca::before:not([data-is-self="true"]),
+.replying_d5deea.compact_f9f2ca .contents_f9f2ca .messageContent_f9f2ca::before:not([data-is-self="true"]) {
+    left: 4px;
+}
