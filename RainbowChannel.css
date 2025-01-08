@@ -74,6 +74,11 @@
   --text-brand: #f38ba8;
   --text-muted: #de7d99b3;
 }
+.friendsButtonContainer_f0963d{
+  --channels-default: rgba(243, 139, 168, 0.7);
+  --interactive-hover: #f38ba8;
+  --interactive-active: #f38ba8;
+}
 
 /* Channel Group Names */
 .wrapperCommon_a08117,
