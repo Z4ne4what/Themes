@@ -85,9 +85,9 @@
 .wrapperCommon_a08117,
 .wrapper_a08117 .name_a08117,
 .privateChannelsHeaderContainer_c47fa9,
-.clickable_fc4f04 .icon_fc4f04,
+.icon_fc4f04:has(path[d^="M13 6a1 1 0 1 0-2 0v5H6a1"]),
 .privateChannelsHeaderContainer_c47fa9:hover,
-.clickable_fc4f04 .icon_fc4f04:hover,
+.icon_fc4f04:hover:has(path[d^="M13 6a1 1 0 1 0-2 0v5H6a1"]),
 .wrapper_a08117 .name_a08117:hover{
   color: white;
 }
