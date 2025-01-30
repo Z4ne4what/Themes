@@ -2,15 +2,13 @@
 /* Made by @sad4whatt on discord */
 /* Reminder, you need the ThemeAttributes plugin for this to work!! */
 
-.messageListItem__5126c{
+[data-is-self="true"] .messageListItem__5126c{
     max-width: 60%
-}
-[data-is-self="true"].messageListItem__5126c{
     left: 29%;
-    max-width: 70%
 }
-[data-is-self="true"] .popoverReactionHoverBar_f84418{
-    margin-right: 400px
+[data-is-self="true"] .container_b7e1cb > *{
+    display: flex;
+    justify-content: flex-end;
 }
 [data-is-self="true"] .zalgo_c19a55.cozy_c19a55 .header_c19a55{
     display: flex;
@@ -40,4 +38,7 @@
 }
 [data-is-self="true"] .markup__75297 .codeContainer__75297{
     left: 50px;
+}
+[data-is-self="true"] .popoverReactionHoverBar_f84418{
+    bottom: 20px;
 }
