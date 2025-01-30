@@ -29,9 +29,6 @@
     display: flex;
     flex-direction: row-reverse;
 }
-[data-is-self="true"] .visualMediaItemContainer_f4758a{
-    margin-left: 32%;
-}
 [data-is-self="true"] .cozy_c19a55 .repliedMessage_c19a55{
     margin-left: 40%;
 }
