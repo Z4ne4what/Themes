@@ -15,13 +15,14 @@
     direction: rtl;
 }
 [data-is-self="true"] .cozy_c19a55 .messageContent_c19a55{
-    text-align: right
+    text-align: right;
+    right: 10px;
 }
 [data-is-self="true"] .avatar_c19a55.clickable_c19a55{
-    left: 94%;
+    left: 95%;
 }
 [data-is-self="true"] .avatarDecoration_c19a55{
-    left: 93.4%
+    left: 94.6%
 }
 [data-is-self="true"] .blockquoteDivider__75297{
     display: flex;
@@ -38,7 +39,4 @@
 }
 [data-is-self="true"] .markup__75297 .codeContainer__75297{
     left: 50px;
-}
-[data-is-self="true"] .popoverReactionHoverBar_f84418{
-    bottom: 20px;
 }
