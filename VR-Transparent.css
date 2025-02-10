@@ -256,6 +256,19 @@ nav[class*="privateChannels" i] [data-list-item-id*="shop"] {
     justify-content: space-evenly !important;
 }
 
+.visual-refresh .stackedBars__74017{
+    background: var(--bg-transparent) !important;
+    backdrop-filter: var(--blur-amount) !important; /* Change Blur here */
+    border: 0; /* Just hate the way borders look */
+    border-radius: 20px 20px 0px 0px !important; 
+}
+.visual-refresh .stackedBars__74017:not(:last-child){
+    border-bottom: 20px;
+}
+:where(.visual-refresh) .themedBackground__74017{
+    border-radius: 0px 0px 20px 20px !important;
+}
+
 
 .visual-refresh {
 	--gap: 16px;
