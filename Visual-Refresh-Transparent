@@ -1,0 +1,24 @@
+/* Setting Icons */ @import url("https://gold-me.github.io/DiscordIcons/main.css");
+/* New Icons */ @import url('https://discordstyles.github.io/Fluent/Icons.css');
+/* Message bubbles & right-aligned */ @import url(https://blade04208.github.io/ddex4/src/bubbles.css);
+
+/* BACKGROUND */
+:root{
+    --bg-transparent: #0000009c;
+    --background: url('https://i.imgur.com/yQ8oRFb.gif');
+    --text-muted: #cccccc !important;
+    --text-color: #ffffff;
+    --scrollbar-color: #00000067;
+    --text-link: #3cff00 !important;
+    --unread-color: #00ffea;
+    --blur-amount: blur(10px);
+    --background-mentioned: #4e9cb64f !important;
+    --background-mentioned-hover: #4e9cb62a !important;
+    --button-color: #4e9cb6;
+}
+/* MESSAGE COLORS */
+.theme-dark {
+  --msgbg: rgba(20, 27, 38, 0.452); /* Background to Messages */
+  --msghv: rgba(20, 27, 38, 0.35); /* Background to Messages on Hover */
+  --msgfg: #ffffff; /* Text Color */
+}
