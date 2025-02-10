@@ -256,6 +256,22 @@ nav[class*="privateChannels" i] [data-list-item-id*="shop"] {
     justify-content: space-evenly !important;
 }
 
+/* Fixes ChatBar */
+.visual-refresh .stackedBars__74017,
+:where(.visual-refresh) .themedBackground__74017{
+    background: var(--chat-bar) !important;
+    border: 0; /* Just hate the way borders look */
+    border-radius: 20px !important; 
+}
+.visual-refresh .stackedBars__74017:not(:last-child){
+    border-radius: 20px 20px 0px 0px !important;
+    margin-bottom: -20px
+}
+.visual-refresh .replyBar__841c8, 
+.visual-refresh .threadSuggestionBar__841c8{
+  margin-bottom: 20px
+}
+
 
 .visual-refresh {
 	--gap: 16px;
