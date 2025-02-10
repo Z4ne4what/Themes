@@ -20,7 +20,7 @@
 .visual-refresh .bottomBar__0f481,.visual-refresh .wrapper__44df5,
 .visual-refresh .container__0b563, .visual-refresh .header__0b563,.root__49fc1,
 .visual-refresh .card__88264,.visual-refresh .prompt__5d7c9,.profileCard__5d7c9,
-.visual-refresh .container__55c99,.outer_c0bea0 .panel_c0bea0{
+.visual-refresh .container__55c99,.outer_c0bea0 .panel_c0bea0,.visual-refresh .stackedBars__74017{
     background: var(--bg-transparent) !important;
     backdrop-filter: var(--blur-amount) !important; /* Change Blur here */
     border: 0; /* Just hate the way borders look */
