@@ -2,6 +2,9 @@
 /* New Icons */ @import url('https://discordstyles.github.io/Fluent/Icons.css');
 /* Message bubbles & right-aligned */ @import url(https://blade04208.github.io/ddex4/src/bubbles.css);
 
+/* THEME CSS */
+
+
 /* BACKGROUND */
 :root{
     --bg-transparent: #0000009c;
@@ -22,3 +25,4 @@
   --msghv: rgba(20, 27, 38, 0.35); /* Background to Messages on Hover */
   --msgfg: #ffffff; /* Text Color */
 }
+
