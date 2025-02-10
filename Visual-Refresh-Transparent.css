@@ -7,7 +7,7 @@
 /* BACKGROUND */
 :root{
     --bg-transparent: #0000009c;
-    --background: url('Image/Gif-Link-Here');
+    --background: url('https://i.imgur.com/yQ8oRFb.gif');
     --text-muted: #cccccc !important;
     --text-color: #ffffff;
     --scrollbar-color: #00000067;
@@ -17,11 +17,15 @@
     --background-mentioned: #4e9cb64f !important;
     --background-mentioned-hover: #4e9cb62a !important;
     --button-color: #4e9cb6;
+    --background-message-hover: #0000002a !important;
+    --emoji-mask: url('https://i.imgur.com/dZRHAME.png');
+    --emoji-bg: url('https://i.imgur.com/dZRHAME.png');
+    --chat-bar: black;
 }
 /* MESSAGE COLORS */
 .theme-dark {
-  --msgbg: rgba(20, 27, 38, 0.452); /* Background to Messages */
-  --msghv: rgba(20, 27, 38, 0.35); /* Background to Messages on Hover */
-  --msgfg: #ffffff; /* Text Color */
+    --msgbg: rgba(20, 27, 38, 0.452); /* Background to Messages */
+    --msghv: rgba(20, 27, 38, 0.35); /* Background to Messages on Hover */
+    --msgfg: #ffffff; /* Text Color */
 }
 
