@@ -19,8 +19,9 @@
 .actionButton_f8fa06,.visual-refresh .bottomBar__0f481,.visual-refresh .wrapper__44df5,
 .visual-refresh .container__0b563, .visual-refresh .header__0b563,.root__49fc1,
 .visual-refresh .card__88264,.visual-refresh .prompt__5d7c9,.profileCard__5d7c9,
-.visual-refresh .container__55c99,.outer_c0bea0 .panel_c0bea0,.visual-refresh .stackedBars__74017,
-.visual-refresh .channelAttachmentArea_b77158,.visual-refresh .upload_aa605f{
+.visual-refresh .container__55c99,.outer_c0bea0 .panel_c0bea0,
+.visual-refresh .channelAttachmentArea_b77158,.visual-refresh .upload_aa605f,
+.visual-refresh .stackedBars__74017:not(:last-child){
     background: var(--bg-transparent) !important;
     backdrop-filter: var(--blur-amount) !important; /* Change Blur here */
     border: 0; /* Just hate the way borders look */
@@ -108,6 +109,17 @@
 }
 .visual-refresh .markup__75297 code{
     background: var(--msgbg)
+}
+
+/* CUSTOM EMOJI BUTTON */
+.form_f75fb0 .emojiButton__04eed .sprite__04eed{
+  background: var(--emoji-bg) center / cover;
+  mask: var(--emoji-mask) center / cover;
+  transform: scale(1.2);
+  margin-left: -5px
+}
+.spriteGreyscale__04eed{
+  background-color: var(--button-color) !important;
 }
 
 
