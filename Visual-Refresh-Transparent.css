@@ -26,8 +26,11 @@
 }
 /* MESSAGE COLORS */
 .theme-dark {
-    --msgbg: rgba(20, 27, 38, 0.452); /* Background to Messages */
-    --msghv: rgba(20, 27, 38, 0.35); /* Background to Messages on Hover */
+    --msgbg: rgba(0, 17, 27, 0.452); /* Background to Messages */
+    --msghv: rgba(0, 0, 0, 0.35); /* Background to Messages on Hover */
     --msgfg: #ffffff; /* Text Color */
+    --background-message-hover: #0000002a !important;
+    --background-mentioned: #4e9cb64f !important;
+    --background-mentioned-hover: #4e9cb62a !important;
 }
 
