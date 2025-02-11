@@ -21,7 +21,9 @@
 .visual-refresh .card__88264,.visual-refresh .prompt__5d7c9,.profileCard__5d7c9,
 .visual-refresh .container__55c99,.outer_c0bea0 .panel_c0bea0,
 .visual-refresh .channelAttachmentArea_b77158,.visual-refresh .upload_aa605f,
-.visual-refresh .stackedBars__74017:not(:last-child){
+.visual-refresh .stackedBars__74017:not(:last-child),.visual-refresh .contentWrapper__08434,
+:where(.visual-refresh) .container_a45028,.visual-refresh .navButtonActive__08434,
+.visual-refresh .navButton__08434:hover{
     background: var(--bg-transparent) !important;
     backdrop-filter: var(--blur-amount) !important; /* Change Blur here */
     border: 0; /* Just hate the way borders look */
@@ -32,6 +34,10 @@
 .visual-refresh .hasBanner_f37cb1 .header_f37cb1,.container_c8ffbb{
     background: none;
     --__header-bar-background: none !important;
+}
+.visual-refresh .header_fed6d3,.container_fed6d3{
+  background: 0;
+  border-bottom: 0;
 }
 .layers__960e4 {
     background: var(--background); /* Background Link here */
@@ -81,6 +87,9 @@
 .divider__88264,.visual-refresh .sectionDivider__629e4{
     background: transparent;
 }
+.visual-refresh .childWrapperNoHoverBg__6e9f8{
+  border-radius: 0px;
+}
 /* Mention Colors */
 [class*=mentioned_] [class^=contents_]>[class*=messageContent_]:not(:empty){
     background: var(--background-mentioned)
@@ -115,7 +124,6 @@
 .form_f75fb0 .emojiButton__04eed .sprite__04eed{
   background: var(--emoji-bg) center / cover;
   mask: var(--emoji-mask) center / cover;
-  transform: scale(1.2);
   margin-left: -5px
 }
 [class*=emojiButton] [class*=spriteColored]::before {
@@ -179,12 +187,12 @@
 /* Hide Nitro and Shop */
 nav[class*="privateChannels" i] [data-list-item-id*="nitro"],
 nav[class*="privateChannels" i] [data-list-item-id*="shop"] {
-    display:none; 
+    display: var(--hide-nitro-shop); 
 }
 
 /* Hide Activity */
 .header__095fe, .headerContainer__095fe,.visual-refresh .container__0f2e8{
-    display: none;
+    display: var(--hide-activity);
 }
 
 /* Fixes Avatars */
