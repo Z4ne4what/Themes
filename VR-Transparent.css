@@ -23,7 +23,7 @@
 .visual-refresh .channelAttachmentArea_b77158,.visual-refresh .upload_aa605f,
 .visual-refresh .stackedBars__74017:not(:last-child),.visual-refresh .contentWrapper__08434,
 :where(.visual-refresh) .container_a45028,.visual-refresh .navButtonActive__08434,
-.visual-refresh .navButton__08434:hover{
+.visual-refresh .navButton__08434:hover,.visual-refresh .container_fea832{
     background: var(--bg-transparent) !important;
     backdrop-filter: var(--blur-amount) !important; /* Change Blur here */
     border: 0; /* Just hate the way borders look */
