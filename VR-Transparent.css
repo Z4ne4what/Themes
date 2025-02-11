@@ -17,13 +17,13 @@
 .visual-refresh .side_b3f026 .themed_b3f026.selected_b3f026.item_b3f026, 
 .visual-refresh .topPill_b3f026 .themed_b3f026.selected_b3f026.item_b3f026,
 .actionButton_f8fa06,.visual-refresh .bottomBar__0f481,.visual-refresh .wrapper__44df5,
-.visual-refresh .container__0b563, .visual-refresh .header__0b563,
+.visual-refresh .container__0b563, .visual-refresh .header__0b563,.box_f8c98c,
 .visual-refresh .card__88264,.visual-refresh .prompt__5d7c9,.profileCard__5d7c9,
-.visual-refresh .container__55c99,.outer_c0bea0 .panel_c0bea0,
+.visual-refresh .container__55c99,.outer_c0bea0 .panel_c0bea0,.visual-refresh .circle__8cc9a,
 .visual-refresh .channelAttachmentArea_b77158,.visual-refresh .upload_aa605f,
 .visual-refresh .stackedBars__74017:not(:last-child),.visual-refresh .contentWrapper__08434,
 :where(.visual-refresh) .container_a45028,.visual-refresh .navButtonActive__08434,
-.visual-refresh .navButton__08434:hover,.visual-refresh .container_fea832{
+.visual-refresh .navButton__08434:hover,.visual-refresh .container_fea832,.box_f8c98c{
     background: var(--bg-transparent) !important;
     backdrop-filter: var(--blur-amount) !important; /* Change Blur here */
     border: 0; /* Just hate the way borders look */
@@ -43,12 +43,19 @@
     background: var(--background); /* Background Link here */
     background-size: cover;
 }
-.visual-refresh .root__49fc1{
+.visual-refresh .root__49fc1,.visual-refresh .box_f8c98c{
   border: 0;
 }
 .backdrop__78332.withLayer__78332{
   background: var(--bg-transparent) !important;
   backdrop-filter: var(--blur-amount) !important; /* Change Blur here */
+}
+.visual-refresh .standardSidebarView__23e6b{
+  background: var(--background) center/cover !important;
+}
+.contentRegionScroller__23e6b,
+.visual-refresh .sidebarRegionScroller__23e6b{
+  background: none;
 }
 /* Fixes unreable Icons/Text */
 .overflow__82b15,.name__20a53,.visual-refresh .topic__6ec1a,
