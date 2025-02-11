@@ -69,6 +69,12 @@
     color: var(--unread-color) !important;
     fill: var(--unread-color) !important;
 }
+.divider__908e2,.visual-refresh .content__908e2{
+  border: 1px solid var(--unread-color);
+  border-radius: 5px;
+  background: var(--unread-color);
+  color: black;
+}
 /* See all of someones profile */
 .viewFullBioColor_f5f93a{
     display: none;
