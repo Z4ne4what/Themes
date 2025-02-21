@@ -278,24 +278,26 @@ nav[class*="privateChannels" i] [data-list-item-id*="shop"] {
 }
 
 /* User area redesign */
-[class^=panels] > [class^=container] {
-    height: unset !important;
-    align-items: unset !important;
-    padding: 6px 8px !important; 
-    flex-direction: column-reverse !important; 
-    gap: 2px !important; 
-}
-[class^=avatarWrapper]{
-    margin-right: unset !important;
-    margin-left: -10px !important;
-    padding-left: 4px !important;
-    width: 100%;
-}
-.visual-refresh .avatarWrapper__37e49:hover{
-    background: none;
-}
-[class^=container] > [class*=buttons]{
-    justify-content: space-evenly !important;
+[class^=panels] > [class^=container] 
+{
+    height: unset !important; 
+    > [class^=content]
+    {
+        align-items: unset !important; 
+        padding: 6px 8px !important; 
+        flex-direction: column-reverse !important; 
+        gap: 2px !important; 
+        > [class^=avatarWrapper]
+        {
+            margin-right: unset !important; 
+            margin-left: unset !important; 
+            padding-left: 4px !important; 
+            ~ [class^=flex] 
+            {
+                justify-content: space-evenly !important; 
+            }
+        }
+    }
 }
 
 /* Fixes ChatBar */
