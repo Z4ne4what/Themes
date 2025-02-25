@@ -304,6 +304,9 @@ nav[class*="privateChannels" i] [data-list-item-id*="shop"] {
         }
     }
 }
+.visual-refresh [class^=avatarWrapper]:hover{
+    background: none;
+}
 
 /* Fixes ChatBar */
 .visual-refresh .stackedBars__74017,
@@ -319,6 +322,17 @@ nav[class*="privateChannels" i] [data-list-item-id*="shop"] {
 .visual-refresh .replyBar__841c8, 
 .visual-refresh .threadSuggestionBar__841c8{
   margin-bottom: 20px
+}
+
+/* POP OUT CSS */ 
+:where(.visual-refresh) .tooltipPointer__382e7.tooltipPointerBg__382e7:after,
+.tooltipPrimary__382e7 .tooltipPointer__382e7{
+    display: none;
+}
+.tooltipPrimary__382e7{
+    background-color: var(--bg-transparent);
+    border: 0;
+    backdrop-filter: var(--blur-amount)
 }
 
 /* BORDERS + EXTRA */
