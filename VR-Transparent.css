@@ -286,13 +286,13 @@ nav[class*="privateChannels" i] [data-list-item-id*="shop"] {
 [class^=panels] > [class^=container] 
 {
     height: unset !important; 
-    > [class^=content]
+    > [class^=content], &:not(:has(> [class^=content])) 
     {
         align-items: unset !important; 
         padding: 6px 8px !important; 
         flex-direction: column-reverse !important; 
         gap: 2px !important; 
-        > [class^=avatarWrapper]
+        > [class^=avatarWrapper] 
         {
             margin-right: unset !important; 
             margin-left: unset !important; 
