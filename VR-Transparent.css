@@ -91,7 +91,7 @@
   background: var(--unread-color);
   color: black;
 }
-.sidebar__23e6b .item_b3f026:before{
+.sidebar__23e6b .item_b3f026:before,.visual-refresh .icon__9293f,.hasRead_faa96b .messageCountIcon_faa96b{
     color: var(--button-color);
 }
 /* See all of someones profile */
@@ -125,12 +125,15 @@
 }
 /* Button Colors */
 .lottieIcon__5eb9b svg,.spriteGreyscale__04eed,
-.visual-refresh .attachButton__0923f .attachButtonPlus__0923f,.iconBadge__9293f{
+.visual-refresh .attachButton__0923f .attachButtonPlus__0923f,.iconBadge__9293f,
+.pinIcon__08166,.lookFilled__201d5.colorBrand__201d5{
     background: var(--button-color) !important;
     fill: var(--button-color) !important;
 }
 .visual-refresh .toolbar__9293f .clickable__9293f .icon__9293f,
- .vc-toolbox-icon{
+.vc-toolbox-icon,.searchIcon_d9be46,.vc-spotify-shuffle-on,.vc-spotify-repeat-context, 
+.vc-spotify-repeat-track,.vc-spotify-shuffle-on:hover,.vc-spotify-repeat-context:hover, 
+.vc-spotify-repeat-track:hover{
     color: var(--button-color) !important;
 }
 
@@ -144,6 +147,8 @@
 .visual-refresh .markup__75297 code{
     background: var(--msgbg)
 }
+#app-mount .messageListItem__5126c[data-is-self="true"] .contents_c19a55{
+    margin-right: 35px !important;
 
 /* CUSTOM EMOJI BUTTON */
 .form_f75fb0 .emojiButton__04eed .sprite__04eed{
