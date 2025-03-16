@@ -24,7 +24,7 @@
 .visual-refresh .stackedBars__74017:not(:last-child),.visual-refresh .contentWrapper__08434,
 :where(.visual-refresh) .container_a45028,.visual-refresh .navButtonActive__08434,
 .visual-refresh .navButton__08434:hover,.visual-refresh .container_fea832,.box_f8c98c,.visual-refresh .embedFull__623de,
-.visual-refresh .markup__75297 code{
+.visual-refresh .markup__75297 code,.visual-refresh .mainCard_f369db,.contentPreview__9a337,.theme-dark .textContentFooter__9a337{
     background: var(--bg-transparent) !important;
     backdrop-filter: var(--blur-amount) !important; /* Change Blur here */
     border: 0; /* Just hate the way borders look */
