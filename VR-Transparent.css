@@ -23,6 +23,7 @@
 .visual-refresh .channelAttachmentArea_b77158,.visual-refresh .upload_aa605f,
 .visual-refresh .stackedBars__74017:not(:last-child),.visual-refresh .contentWrapper__08434,
 :where(.visual-refresh) .container_a45028,.visual-refresh .navButtonActive__08434,
+.visual-refresh .searchAnswer_bd8186, .visual-refresh .searchFilter_bd8186,
 .visual-refresh .navButton__08434:hover,.visual-refresh .container_fea832,.box_f8c98c,.visual-refresh .embedFull__623de
 ,.visual-refresh .mainCard_f369db,.contentPreview__9a337,.theme-dark .textContentFooter__9a337,.visual-refresh .markup__75297 code{
     background: var(--bg-transparent) !important;
