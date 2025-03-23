@@ -55,9 +55,9 @@
 .visual-refresh .standardSidebarView__23e6b{
   background: var(--background) center/cover !important;
 }
-.contentRegionScroller__23e6b,
+.contentRegionScroller__23e6b,.visual-refresh .resizeHandle__01ae2,
 .visual-refresh .sidebarRegionScroller__23e6b,.visual-refresh .contentRegionScroller__23e6b,
-.contentRegion__23e6b,.link__2ea32 .vc-typing-indicator-dots svg{
+.contentRegion__23e6b,.link__2ea32 .vc-typing-indicator-dots svg,{
   background: none;
 }
 /* Fixes unreable Icons/Text */
@@ -94,7 +94,8 @@
   background: var(--unread-color);
   color: black;
 }
-.sidebar__23e6b .item_b3f026:before,.visual-refresh .icon__9293f,.hasRead_faa96b .messageCountIcon_faa96b{
+.sidebar__23e6b .item_b3f026:before,.visual-refresh .icon__9293f,.hasRead_faa96b .messageCountIcon_faa96b,
+.visual-refresh button.button__67645,.visual-refresh button.button__67645:hover{
     color: var(--button-color);
 }
 /* See all of someones profile */
@@ -141,14 +142,14 @@
 }
 
 /* MESSAGE COLOR */
-[class^=contents_]>[class*=messageContent_]:not(:empty){
+[class^=contents_]>[class*=messageContent_]:not(:empty),
+.visual-refresh .textContainer__4d95d,.visual-refresh .markup__75297 code,
+.visual-refresh .container__9271d,.visual-refresh .footer__4d95d{
     background: var(--msgbg)
 }
-[class^=contents_]>[class*=messageContent_]:hover:not(:empty){
+[class^=contents_]>[class*=messageContent_]:hover:not(:empty),
+.visual-refresh .container__9271d:hover,.visual-refresh .footer__4d95d:hover{
     background: var(--msghv)
-}
-.visual-refresh .markup__75297 code{
-    background: var(--msgbg)
 }
 #app-mount .messageListItem__5126c[data-is-self="true"] .contents_c19a55{
     margin-right: 35px !important;
