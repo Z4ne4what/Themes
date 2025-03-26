@@ -16,8 +16,9 @@
 }
 
                               
-/* Idk weird thingies */
-:where(.visual-refresh) .dot__9293f{
+/* Idk weird thingies be gone */
+:where(.visual-refresh) .dot__9293f,
+.winButtonsWithDivider_c38106:before{
     display: none;
 }
 .visual-refresh .sidebarListRounded_c48ade{
