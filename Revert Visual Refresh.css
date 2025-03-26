@@ -1,0 +1,90 @@
+/* Og panels */
+.visual-refresh [class^="panels_"] {
+    bottom: 0px;
+    left: 72px;
+    width: calc(100% - 72px);
+    border-radius: 0px;
+    background-color: var(--background-secondary);
+    >[class^="container_"] {
+        padding: 0px;
+        margin: 0 8px;
+        height: 57px;
+    }
+}
+.visual-refresh [class^="sidebar_"] > [class*="guilds_"] {
+    margin-bottom: 0px;
+}
+
+                              
+/* Idk weird dot thingy */
+:where(.visual-refresh) .dot__9293f{
+    display: none;
+}
+
+                              
+/* Remove the top part */
+.visual-refresh {
+    div[class^="subtitleContainer_"],
+    main[class^="container__"] section[class*="container__"] {
+        width: calc(100% - 172px);
+    }
+
+    div[class^="page_"] {
+        &:not(:has(> div[class^="chat_"])) {
+            anchor-name: --vr-header-snippet; 
+        }
+
+        & > div[class^="chat_"] {
+            anchor-name: --vr-header-snippet; 
+        }
+    }
+
+    div[class^="base_"] {
+        grid-template-rows: auto;
+
+        &:has(div[class^="bar_"] > div[class^="trailing_"] > *:nth-child(3)) {
+            & div[class^="subtitleContainer_"],
+            & main[class^="container__"] section[class*="container__"] {
+                width: calc(100% - 216px);
+            }
+        }
+
+        & > div[class^="bar_"] {
+            position: absolute;
+            position-anchor: --vr-header-snippet;
+            top: 0;
+            right: anchor(right);
+            width: anchor-size(width);
+            padding: 0;
+        }
+
+        & div[class^="trailing_"] {
+            background: var(--background-base-lower);
+            border: none;
+            border-bottom: 1px solid var(--border-subtle);
+            height: var(--custom-channel-header-height);
+        }
+    }
+
+    :not(:has(div[class^="page_"] > div[class^="chat_"])) div[class^="base_"] > div[class^="bar_"] {
+        right: 0 !important;
+    }
+
+    ul[data-list-id="guildsnav"] > div[class^="itemsContainer_"] {
+        margin-top: 16px;
+    }
+
+    div[class*="topic__"] {
+        -webkit-app-region: no-drag;
+    }
+}
+
+/* Og channel icons */
+.visual-refresh .guildIcon__48112[style]{
+    --custom-guild-icon-size: calc(var(--guildbar-folder-size) / 2 - var(--space-8) / 2 - 0px);
+    border-radius: 10px !important;
+}
+.visual-refresh .closedFolderIconWrapper__48112{
+    gap: 0;
+    border-radius: 0;
+}
