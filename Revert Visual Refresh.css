@@ -29,57 +29,28 @@
 .visual-refresh {
     div[class^="subtitleContainer_"],
     main[class^="container__"] section[class*="container__"] {
-        width: calc(100% - 172px);
+        width: calc(100% - 162px);
     }
-
-    div[class^="page_"] {
-        &:not(:has(> div[class^="chat_"])) {
-            anchor-name: --vr-header-snippet; 
-        }
-
-        & > div[class^="chat_"] {
-            anchor-name: --vr-header-snippet; 
-        }
     }
 
     div[class^="base_"] {
-        grid-template-rows: auto;
-
         &:has(div[class^="bar_"] > div[class^="trailing_"] > *:nth-child(3)) {
             & div[class^="subtitleContainer_"],
             & main[class^="container__"] section[class*="container__"] {
-                width: calc(100% - 216px);
+                width: calc(100% - 2px);
             }
         }
 
         & > div[class^="bar_"] {
             position: absolute;
-            position-anchor: --vr-header-snippet;
-            top: 0;
-            right: anchor(right);
-            width: anchor-size(width);
-            padding: 0;
+            right: 0px;
+            padding-left: 0;
         }
 
         & div[class^="trailing_"] {
-            background: var(--background-base-lower);
-            border: none;
-            border-bottom: 1px solid var(--border-subtle);
-            height: var(--custom-channel-header-height);
+            background: var(--background-base-lowest);
+            height: 20px;
         }
-    }
-
-    :not(:has(div[class^="page_"] > div[class^="chat_"])) div[class^="base_"] > div[class^="bar_"] {
-        right: 0 !important;
-    }
-
-    ul[data-list-id="guildsnav"] > div[class^="itemsContainer_"] {
-        margin-top: 16px;
-    }
-
-    div[class*="topic__"] {
-        -webkit-app-region: no-drag;
-    }
 }
 
 /* Og channel icons */
