@@ -16,9 +16,12 @@
 }
 
                               
-/* Idk weird dot thingy */
+/* Idk weird thingies */
 :where(.visual-refresh) .dot__9293f{
     display: none;
+}
+.visual-refresh .sidebarListRounded_c48ade{
+    border-top-left-radius: 0;
 }
 
                               
