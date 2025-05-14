@@ -1,0 +1,59 @@
+/* MOVES SIDEBAR AND SERVER LIST UP */
+.visual-refresh .base_c48ade {
+    grid-template-areas: 
+        "guildsList channelsList titleBar" 
+        "guildsList channelsList notice" 
+        "guildsList channelsList page";
+}
+.visual-refresh .content_c48ade,
+.visual-refresh .sidebar_c48ade{
+    grid-row: top/end;
+}
+.sidebarList_c48ade{
+    border-top-left-radius: 0 !important;
+    border-top: 0 !important;
+}
+.visual-refresh .privateChannels__35e86{
+    border-right: 1px solid var(--border-subtle);
+}
+/* fix lack of padding on server container*/
+.tutorialContainer__1f388 {
+    padding-top: 0.66rem;
+}
+/* Makes it so that the sidebar and channel name bar match height */
+.visual-refresh .container_f37cb1,.visual-refresh .header_f37cb1 {
+    bottom: 5.6px;
+}
+.primaryInfo_f37cb1{
+    margin-top: 10px;
+    justify-content: center;
+}
+/* MOVES DMS UP */
+.visual-refresh .searchBar__35e86{
+    left: 60%;
+    top: 7.3%;
+    border-bottom: 0;
+}
+.visual-refresh .scroller__99e7c{
+    bottom: 10.5px;
+}
+/* Fixing banner */
+.visual-refresh .bannerImage_f37cb1, .visual-refresh .bannerImg_f37cb1,
+.animatedContainer_f37cb1, .bannerImage_f37cb1{
+    height: 86px;
+}
+[style="height: 84px;"]{
+    height: 34px !important;
+}
+
+/* OPTIONAL */
+/* Hide channel name bc why is there two places for the name ?? */
+.visual-refresh .primaryInfo_f37cb1 .name_f37cb1{
+    display: none;
+}
+/* Removes odd blurring on header */
+.clickable_f37cb1 .header_f37cb1:hover, .selected_f37cb1 .header_f37cb1,
+:where(.visual-refresh) .bannerVisible_f37cb1 .headerGlass_f37cb1{
+    background: none;
+    backdrop-filter: blur(0px)
+}
