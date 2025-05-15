@@ -35,7 +35,7 @@
 .clickable__91a9d:hover .childContainer__91a9d,.selected__91a9d .childContainer__91a9d{
     background: none;
 }
-.content__99f8c .nameContainer__703b9::before {
+.member__5d473 .nameContainer__703b9::before {
     content: "";
     background: linear-gradient(45deg,currentcolor, 1%, transparent);
     z-index: -2000;
