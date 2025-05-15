@@ -218,3 +218,26 @@
         display: none;
     }
 }
+.name__20a53 .overflow__82b15,.subText__20a53 .overflow__82b15,
+.sidebarList_c48ade .subText__20a53{
+    font-size: 12px !important;
+    --custom-activity-status-icon-size: 10px;
+    --custom-activity-status-emoji-size: 12px;
+    margin-top: 0px;
+    display: flex;
+    align-items: center;
+}
+.subText__20a53{
+    margin-right: -4px;
+}
+.clanTag__972a0,.vc-member-list-decorators-wrapper{
+    scale: 0.8;
+    margin: 0
+}
+.content__20a53{
+    margin-left: -2px
+}
+.vc-platform-indicator[style]{
+    margin-left: -5px;
+    gap: 0 !important;
+}
