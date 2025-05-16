@@ -31,29 +31,6 @@
     padding: var(--space-xs) var(--space-xxs) var(--space-xs) var(--space-sm)!important;
 }
 
-/* COMPACT MEMBER LIST COLORS */
-.clickable__91a9d:hover .childContainer__91a9d,.selected__91a9d .childContainer__91a9d{
-    background: none;
-}
-.member__5d473 .nameContainer__703b9::before {
-    content: "";
-    background: linear-gradient(45deg,currentcolor, 1%, transparent);
-    z-index: -2000;
-    border-radius: 0px;
-    width: calc(var(--custom-member-list-width) - 12px);
-    height: 32px;
-    position: absolute;
-    opacity: .75;
-    left: -8px;
-    top: 0px;
-}
-.nameContainer__703b9{
-    position: unset
-}
-.container__4bbc6[style]{
-    width: unset
-}
-
 /* COMPACT SERVER LIST */
 .unread__2ea32 {
   width: 3px;
