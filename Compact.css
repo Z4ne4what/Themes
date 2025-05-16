@@ -1,7 +1,6 @@
 /* COMPACT MEMBER LIST */
 .member__5d473 {
     height: 32px!important;
-    padding: var(--space-xxs) var(--space-xs);
     margin: calc(var(--space-xxs) / 2) var(--space-xxs);
 }
 .memberInner__5d473, .childContainer__91a9d {
