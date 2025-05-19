@@ -22,6 +22,12 @@
         "TEXT_DANGER": [
             "#737373"
         ],
+        "CARD_PRIMARY_BG": [
+            "#000000"
+        ],
+        "CARD_SECONDARY_BG": [
+            "#000000"
+        ],
         "INTERACTIVE_NORMAL": [
             "#FFFFFF"
         ],
@@ -33,6 +39,9 @@
         ],
         "INTERACTIVE_MUTED": [
             "#5c5c5c"
+        ],
+        "PANEL_BG": [
+            "#background"
         ],
         "BACKGROUND_PRIMARY": [
             "#000000"
@@ -77,13 +86,13 @@
             "#1a1a1a"
         ],
         "BACKGROUND_MODIFIER_ACCENT": [
-            "transparent"
+            "#transparent"
         ],
         "SCROLLBAR_THIN_THUMB": [
             "#FFFFFF"
         ],
         "SCROLLBAR_THIN_TRACK": [
-            "000000"
+            "#000000"
         ],
         "SCROLLBAR_AUTO_THUMB": [
             "#FFFFFF"
@@ -107,7 +116,7 @@
             "#FFFFFF"
         ],
         "REDESIGN_ACTIVITY_CARD_BORDER": [
-            "#272727"
+            "#transparent"
         ],
         "REDESIGN_ACTIVITY_CARD_BACKGROUND": [
             "#272727"
